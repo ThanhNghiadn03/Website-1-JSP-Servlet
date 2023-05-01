@@ -1,0 +1,47 @@
+package service.Implement;
+
+import java.util.List;
+
+import model.Categories;
+import model.Product;
+import service.Interfaces.CRUDCategories;
+import service.Interfaces.CRUDProduct;
+
+public class ProductServiceImpl implements CRUDProduct,CRUDCategories{
+	
+	public List<Product> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void insert(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void edit(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void insert(Categories t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void edit(Categories t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Categories findCategories(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

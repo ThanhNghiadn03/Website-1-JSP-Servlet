@@ -1,0 +1,8 @@
+package service.implement;
+
+import model.Product;
+import service.itf.CRUDService;
+
+public interface CRUDProduct extends CRUDService<Product> {
+
+}

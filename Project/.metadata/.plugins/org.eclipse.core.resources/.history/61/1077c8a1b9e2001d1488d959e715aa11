@@ -1,0 +1,30 @@
+package repository.Implement;
+
+import java.util.List;
+
+import model.Product;
+import repository.Interface.CRUDProductRepo;
+
+public class ProductRepoImpl implements CRUDProductRepo{
+
+	public List<Product> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void insert(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void edit(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

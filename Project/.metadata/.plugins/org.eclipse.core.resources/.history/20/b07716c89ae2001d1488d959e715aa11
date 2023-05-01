@@ -1,0 +1,5 @@
+package repository.Implement;
+
+public class CategoriesRepoImpl {
+
+}

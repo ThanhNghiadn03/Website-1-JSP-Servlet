@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+
+
+.body {
+	font-size: 30px;
+}
+
+.left-right {
+    display: grid;
+    grid-template-columns: 200px 4fr;
+}
+.right-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.item {
+    border: 1px solid; 
+    padding: 10px;
+}
+
+.thumbnail-img {
+    width: 178px; 
+    height: 258px; 
+    object-fit: cover
+}
+

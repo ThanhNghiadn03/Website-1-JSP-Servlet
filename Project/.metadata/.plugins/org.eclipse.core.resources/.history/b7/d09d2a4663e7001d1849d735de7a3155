@@ -1,0 +1,5 @@
+package utils;
+
+public interface ConstantProduct {
+	String SELECT_ALL_PRODUCT = "select * from product;";
+}

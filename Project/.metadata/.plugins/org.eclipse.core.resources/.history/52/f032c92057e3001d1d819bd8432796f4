@@ -1,0 +1,12 @@
+
+.item {
+    display: inline-block; 
+    border: 1px solid; 
+    padding: 10px;
+}
+
+.thumbnail-img {
+    width: 178px; 
+    height: 258px; 
+    object-fit: cover
+}

@@ -1,0 +1,25 @@
+1. Tomcat fail to start :
+
+--> Xoá tomcat hiện tại và add lại.
+
+Open the Servers Tab from Windows → Show View → Servers menu
+
+Right click on the server and delete it
+
+Create a new server by going New → Server on Server Tab
+
+Click on "Configure runtime environments…" link
+
+Select the Apache Tomcat v7.0 server and remove it. This will remove the Tomcat server configuration. This is where many people do mistake – they remove the server but do not remove the Runtime environment.
+
+Click on OK and exit the screen above now.
+
+From the screen below, choose Apache Tomcat v7.0 server and click on next button.
+
+Browse to Tomcat Installation Directory
+
+Click on Next and choose which project you would like to deploy:
+
+Click on Finish after Adding your project
+
+Now launch your server. This will fix your Server timeout or any issues with old server configuration. This solution can also be used to fix “port update not being taking place” issues.

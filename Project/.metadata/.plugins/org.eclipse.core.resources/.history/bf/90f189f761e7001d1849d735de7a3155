@@ -1,0 +1,64 @@
+package repository.Implement;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import model.Product;
+import repository.Interface.CRUDProductRepo;
+import utils.ConnectionUtils;
+import utils.ConstantProduct;
+
+public class ProductRepoImpl implements CRUDProductRepo{
+
+	public List<Product> findAll() {
+		// TODO Auto-generated method stub
+		List<Product> listProduct = new ArrayList<Product>();
+		Connection connection = ConnectionUtils.getConnection();
+		try {
+			PreparedStatement preState = connection.prepareStatement(ConstantProduct.SELECT_ALL_PRODUCT);
+			ResultSet rs = preState.executeQuery();
+			while(rs.next()) {
+				int idProduct = rs.getInt("id");
+				String name = rs.getString("nameProduct");
+				int price = rs.getInt("price");
+				int discount = rs.getInt("discount");
+				String thumbnail = rs.getString("thumbnail");
+				String description = rs.getString("descriptions");
+				String creDate = rs.getString("created_at");
+				String upDate = rs.getString("updated_at");
+				String nxb = rs.getString("nxb");
+				String tacgia = rs.getString("tacgia");
+				String loaibia = rs.getString("loaibia");
+				int sotrang = rs.getInt("sotrang");
+				int cateId = rs.getInt("categoryID");
+				Product product = new Product(idProduct,name,price,discount,thumbnail,description,creDate,upDate,nxb,tacgia,loaibia, sotrang,cateId);
+				listProduct.add(product);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("SQLException");
+		}
+		
+		return listProduct;
+	}
+
+	public void insert(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void deleteById(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void edit(Product t) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

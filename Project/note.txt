@@ -1,0 +1,12 @@
+/new-web-ban-sach/src/main/webapp/views/home/css-home.css
+
+/new-web-ban-sach/src/main/webapp/views/thumbnails/nha_gia_kim__paulo_coelho.jpg
+
+<mime-mapping> 
+	<extension>css</extension> 
+	<mime-type>text/css</mime-type> 
+</mime-mapping>
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+font-family: 'Roboto', sans-serif;
