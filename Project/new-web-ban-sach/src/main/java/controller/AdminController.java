@@ -41,7 +41,10 @@ public class AdminController extends HttpServlet  {
 			showCategories(request, response);
 		} else if(action.equals("products")) {
 			showProduct(request, response);
-		}else {
+		} else if(action.equals("deleteProduct")) {
+			deleteProduct(request, response);
+		}
+		else {
 			showAdmin(request, response);
 		}
 	}
@@ -56,6 +59,8 @@ public class AdminController extends HttpServlet  {
         }
         if(action.equals("products")) {
         	addNewProduct(request, response);
+        } else if(action.equals("deleteProduct")) {
+        	deleteProduct(request, response);
         }
 	}
 	
@@ -113,7 +118,7 @@ public class AdminController extends HttpServlet  {
 		String name = request.getParameter("nameProduct");
 		int price = Integer.parseInt(request.getParameter("price"));
 		int discount = Integer.parseInt(request.getParameter("discount"));
-		String thumbnail = "http://localhost:8080/new-web-ban-sach/views/thumbnails/"+request.getParameter("thumbnail");
+		String thumbnail = "http://localhost:8080/new-jdbc15-03/views/thumbnails/"+request.getParameter("thumbnail");
 		String descriptions = request.getParameter("Product Description");
 		String created_at = dateString;
 		String updated_at = null;
@@ -125,6 +130,11 @@ public class AdminController extends HttpServlet  {
 		Product product = new Product(name, price, discount, thumbnail, descriptions, created_at, updated_at, nxb, tacgia, loaibia, sotrang, categoryID);
 		System.out.println(product.toString());
 		productService.insert(product);
+		showProduct(request, response);
+	}
+	private void deleteProduct(HttpServletRequest request, HttpServletResponse response) {
+		int id = Integer.parseInt(request.getParameter("idProduct"));
+		productService.deleteById(id);
 		showProduct(request, response);
 	}
 }

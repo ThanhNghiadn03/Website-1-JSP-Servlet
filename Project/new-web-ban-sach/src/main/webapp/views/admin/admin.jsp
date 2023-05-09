@@ -29,14 +29,14 @@
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="/new-web-ban-sach/trang-chu">Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="/new-web-ban-sach/admin-home?action=categories">Danh mục</a>
+							aria-current="page" href="/new-jdbc15-03/trang-chu">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="/new-jdbc15-03/admin-home?action=categories">Danh mục</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="/new-web-ban-sach/admin-home?action=products">Sản phẩm</a>
+						<li class="nav-item"><a class="nav-link" href="/new-jdbc15-03/admin-home?action=products">Sản phẩm</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="/new-web-ban-sach/admin-home?action=users">Users</a>
+						<li class="nav-item"><a class="nav-link" href="/new-jdbc15-03/admin-home?action=users">Users</a>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="/new-web-ban-sach/admin-home?action=orders">Order</a>
+						<li class="nav-item"><a class="nav-link" href="/new-jdbc15-03/admin-home?action=orders">Order</a>
 						</li>
 					</ul>
 					<form class="d-flex">

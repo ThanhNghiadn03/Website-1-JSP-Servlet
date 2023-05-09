@@ -23,7 +23,7 @@ public class ProductServiceImpl implements CRUDProduct{
 
 	public void deleteById(int id) {
 		// TODO Auto-generated method stub
-		
+		productRepo.deleteById(id);
 	}
 
 	public void edit(Product t) {

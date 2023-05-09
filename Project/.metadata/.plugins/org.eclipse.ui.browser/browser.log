@@ -304,3 +304,37 @@ May 01, 2023 12:03:27.21 [6756:10168:0501/120327.210:ERROR:device_event_log_impl
 May 01, 2023 12:03:27.30 [6756:10168:0501/120327.212:ERROR:device_event_log_impl.cc(222)] [12:03:27.212] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 May 01, 2023 12:03:27.30 [6756:10168:0501/120327.212:ERROR:device_event_log_impl.cc(222)] [12:03:27.212] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
 May 01, 2023 12:03:29.04 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 01, 2023 12:17:00.00 NEW SESSION
+May 01, 2023 12:17:00.00 [2668:1856:0501/121700.001:ERROR:device_event_log_impl.cc(222)] [12:17:00.001] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 12:17:00.00 [2668:1856:0501/121700.003:ERROR:device_event_log_impl.cc(222)] [12:17:00.003] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 12:17:00.00 [2668:1856:0501/121700.003:ERROR:device_event_log_impl.cc(222)] [12:17:00.003] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 12:17:00.26 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2023 12:17:49.35 [2668:1404:0501/121749.358:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 01, 2023 12:17:49.35 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 01, 2023 12:17:49.36 ERROR: Failed parsing Certificate
+May 01, 2023 12:17:49.36 
+May 01, 2023 12:17:49.36 [2668:2964:0501/121749.358:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 01, 2023 12:17:49.36 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 01, 2023 12:17:49.36 ERROR: Failed parsing Certificate
+May 01, 2023 12:17:49.36 
+May 01, 2023 12:17:49.47 [2668:1856:0501/121749.470:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+May 01, 2023 12:17:52.66 [2668:1404:0501/121752.659:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 01, 2023 12:17:52.66 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 01, 2023 12:17:52.66 ERROR: Failed parsing Certificate
+May 01, 2023 12:17:52.66 
+May 01, 2023 12:18:19.43 [2668:1856:0501/121819.436:ERROR:interface_endpoint_client.cc(695)] Message 1 rejected by interface blink.mojom.WidgetHost
+
+May 01, 2023 13:19:22.85 NEW SESSION
+May 01, 2023 13:19:22.85 [9280:11596:0501/131922.853:ERROR:device_event_log_impl.cc(222)] [13:19:22.852] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 13:19:22.85 [9280:11596:0501/131922.855:ERROR:device_event_log_impl.cc(222)] [13:19:22.855] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 13:19:22.85 [9280:11596:0501/131922.855:ERROR:device_event_log_impl.cc(222)] [13:19:22.855] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 01, 2023 13:19:23.80 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 01, 2023 13:20:11.94 [9280:11964:0501/132011.939:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 01, 2023 13:20:11.94 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 01, 2023 13:20:11.94 ERROR: Failed parsing Certificate
+May 01, 2023 13:20:11.94 
+May 01, 2023 13:29:42.38 [9280:9288:0501/132942.380:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 01, 2023 13:29:42.38 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 01, 2023 13:29:42.38 ERROR: Failed parsing Certificate
+May 01, 2023 13:29:42.38 

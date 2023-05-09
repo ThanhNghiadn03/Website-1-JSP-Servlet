@@ -1,7 +1,0 @@
-package service;
-
-import model.Categories;
-
-public interface CRUDCategories extends CRUDService<Categories> {
-
-}

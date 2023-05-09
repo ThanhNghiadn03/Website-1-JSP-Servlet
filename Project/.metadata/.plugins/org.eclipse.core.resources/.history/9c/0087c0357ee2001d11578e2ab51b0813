@@ -1,8 +1,0 @@
-package service.itf;
-
-import model.Product;
-import service.CRUDService;
-
-public interface CRUDProduct extends CRUDService<Product> {
-
-}

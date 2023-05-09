@@ -11,8 +11,12 @@
 	rel="stylesheet"
 	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 	crossorigin="anonymous">
+<link
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+	rel="stylesheet">
 </head>
 <body>
+	<%!String id;%>
 	<div class="header">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
@@ -30,8 +34,7 @@
 						<li class="nav-item"><a class="nav-link active"
 							aria-current="page" href="/new-jdbc15-03/trang-chu">Home</a></li>
 						<li class="nav-item"><a class="nav-link"
-							href="/new-jdbc15-03/admin-home?action=categories">Danh
-								mục</a></li>
+							href="/new-jdbc15-03/admin-home?action=categories">Danh mục</a></li>
 						<li class="nav-item"><a class="nav-link"
 							href="/new-jdbc15-03/admin-home?action=products">Sản phẩm</a></li>
 						<li class="nav-item"><a class="nav-link"
@@ -122,6 +125,33 @@
 
 		</div>
 	</div>
+	<div id="deleteProduct" class="modal fade" tabindex="-1"
+		aria-labelledby="delete" aria-hidden="true">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<form method="post">
+					<div class="modal-header">
+						<h4 class="modal-title" id="addNew">Xoá sản phẩm</h4>
+						<button type="button" class="btn-close" data-bs-dismiss="modal"
+							aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<p>Bạn có chắc chắn muốn xoá ?</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-bs-dismiss="modal">Đóng</button>
+						<a
+							href="/new-jdbc15-03/admin-home?action=deleteProduct&idProduct=${id}"
+							style="text-decoration: none"><button type="button"
+								class="btn btn-primary" data-bs-dismiss="modal">Xoá</button></a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 	<div>
 		<table class="table">
 			<tr>
@@ -144,13 +174,14 @@
 					<td><c:out value="${product.loaibia}"></c:out></td>
 					<td><c:out value="${product.sotrang}"></c:out></td>
 					<td><a
-						href="/new-web-ban-sach/admin-home?action=editProduct&idProduct=${product.idProduct}"
-						style="text-decoration: none">Chỉnh sửa</a></td>
+						href="/new-jdbc15-03/admin-home?action=editProduct&idProduct=${product.idProduct}"
+						style="text-decoration: none"><i class="fa-solid fa-pen"></i></a></td>
+					<td><button type="button" class="btn btn-primary"
+							data-bs-toggle="modal" data-bs-target="#deleteProduct">
+							<i class="fa-solid fa-trash"></i>
+						</button></td>
 					<td><a
-						href="/new-web-ban-sach/admin-home?action=deleteProduct&idProduct=${product.idProduct}"
-						style="text-decoration: none">Xoá</a></td>
-					<td><a
-						href="/new-web-ban-sach/admin-home?action=detailCate&idCategory=${product.idProduct}"
+						href="/new-jdbc15-03/admin-home?action=detailCate&idCategory=${product.idProduct}"
 						style="text-decoration: none">Chi tiết</a></td>
 				</tr>
 			</c:forEach>

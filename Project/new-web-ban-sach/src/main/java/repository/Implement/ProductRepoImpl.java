@@ -75,6 +75,16 @@ public class ProductRepoImpl implements CRUDProductRepo {
 
 	public void deleteById(int id) {
 		// TODO Auto-generated method stub
+		Connection connection = ConnectionUtils.getConnection();
+		try {
+			PreparedStatement statement = connection.prepareStatement(ConstantProduct.DELETE_PRODUCT);
+			statement.setInt(1, id);
+			statement.executeUpdate();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 
 	}
 
