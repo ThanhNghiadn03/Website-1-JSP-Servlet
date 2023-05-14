@@ -30,7 +30,8 @@ public class CategoriesServiceImpl implements CRUDCategories {
 		
 	}
 
-	public Categories findCategories(int id) {
+	@Override
+	public Categories findByID(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}

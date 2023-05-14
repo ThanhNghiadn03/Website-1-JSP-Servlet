@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+$(document).ready(function() {
+			$('#myButton').trigger('click');
+			$('#mybutton').hide();
+})

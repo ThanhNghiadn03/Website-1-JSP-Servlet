@@ -7,4 +7,5 @@ public interface CRUDRepository <T>{
 	void insert(T t);
 	void deleteById(int id);
 	void edit(T t);
+	T findByID(int id);
 }

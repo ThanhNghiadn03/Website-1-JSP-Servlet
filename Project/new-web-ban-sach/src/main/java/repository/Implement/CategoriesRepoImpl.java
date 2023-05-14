@@ -55,4 +55,10 @@ public class CategoriesRepoImpl implements CRUDCategoriesRepo{
 		return null;
 	}
 
+	@Override
+	public Categories findByID(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

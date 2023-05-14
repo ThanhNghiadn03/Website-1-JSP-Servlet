@@ -93,4 +93,36 @@ public class ProductRepoImpl implements CRUDProductRepo {
 
 	}
 
+	@Override
+	public Product findByID(int id) {
+		// TODO Auto-generated method stub
+		Product product = null;
+		Connection connection = ConnectionUtils.getConnection();
+		try {
+			PreparedStatement statement = connection.prepareStatement(ConstantProduct.FIND_PRODUCT_BY_ID);
+			statement.setInt(1, id);
+			ResultSet rs = statement.executeQuery();
+			while(rs.next()) {
+				String name = rs.getString("nameProduct");
+				int price = rs.getInt("price");
+				int discount = rs.getInt("discount");
+				String thumbn = rs.getString("thumbnail");
+				String descript = rs.getString("descriptions");
+				String created = rs.getString("created_at");
+				String updated = rs.getString("updated_at");
+				int cateID = rs.getInt("categoryID");
+				String nxb = rs.getString("nxb");
+				String tacgia = rs.getString("tacgia");
+				String loaibia = rs.getString("loaibia");
+				int sotrang = rs.getInt("sotrang");
+				product = new Product(id,name,price,discount,thumbn,descript,created,updated,nxb,tacgia,loaibia,sotrang,cateID);
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return product;
+	}
+
 }

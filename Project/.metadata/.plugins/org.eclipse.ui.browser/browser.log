@@ -338,3 +338,241 @@ May 01, 2023 13:29:42.38 [9280:9288:0501/132942.380:ERROR:cert_issuer_source_aia
 May 01, 2023 13:29:42.38 ERROR: Couldn't read tbsCertificate as SEQUENCE
 May 01, 2023 13:29:42.38 ERROR: Failed parsing Certificate
 May 01, 2023 13:29:42.38 
+
+May 10, 2023 08:56:03.82 NEW SESSION
+May 10, 2023 08:56:03.82 [3580:2040:0510/085603.817:ERROR:device_event_log_impl.cc(222)] [08:56:03.817] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:56:03.82 [3580:2040:0510/085603.820:ERROR:device_event_log_impl.cc(222)] [08:56:03.819] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:56:03.82 [3580:2040:0510/085603.820:ERROR:device_event_log_impl.cc(222)] [08:56:03.820] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:56:04.29 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2023 08:57:16.57 [6872:5620:0510/085716.578:ERROR:device_event_log_impl.cc(222)] [08:57:16.577] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:57:16.58 [6872:5620:0510/085716.584:ERROR:device_event_log_impl.cc(222)] [08:57:16.583] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:57:16.58 [6872:5620:0510/085716.584:ERROR:device_event_log_impl.cc(222)] [08:57:16.584] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+May 10, 2023 08:57:16.99 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+May 10, 2023 09:04:08.68 [6872:7836:0510/090408.680:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 09:04:08.68 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 09:04:08.68 ERROR: Failed parsing Certificate
+May 10, 2023 09:04:08.68 
+May 10, 2023 09:04:10.27 [6872:7836:0510/090410.276:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 09:04:10.27 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 09:04:10.27 ERROR: Failed parsing Certificate
+May 10, 2023 09:04:10.28 
+May 10, 2023 10:30:01.08 [6872:7836:0510/103001.081:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:30:01.08 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:30:01.08 ERROR: Failed parsing Certificate
+May 10, 2023 10:30:01.08 
+May 10, 2023 10:30:01.88 [6872:7836:0510/103001.877:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:30:01.88 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:30:01.88 ERROR: Failed parsing Certificate
+May 10, 2023 10:30:01.88 
+May 10, 2023 10:35:12.05 [6872:7836:0510/103512.053:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:35:12.05 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:35:12.05 ERROR: Failed parsing Certificate
+May 10, 2023 10:35:12.05 
+May 10, 2023 10:35:15.33 [6872:7836:0510/103515.334:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:35:15.33 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:35:15.33 ERROR: Failed parsing Certificate
+May 10, 2023 10:35:15.33 
+May 10, 2023 10:35:15.52 [6872:7836:0510/103515.519:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:35:15.52 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:35:15.52 ERROR: Failed parsing Certificate
+May 10, 2023 10:35:15.52 
+May 10, 2023 10:36:05.44 [6872:7836:0510/103605.445:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:36:05.44 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:36:05.44 ERROR: Failed parsing Certificate
+May 10, 2023 10:36:05.45 
+May 10, 2023 10:36:06.41 [6872:7836:0510/103606.409:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:36:06.41 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:36:06.41 ERROR: Failed parsing Certificate
+May 10, 2023 10:36:06.41 
+May 10, 2023 10:55:16.16 [6872:7836:0510/105516.167:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:55:16.16 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:55:16.16 ERROR: Failed parsing Certificate
+May 10, 2023 10:55:16.16 
+May 10, 2023 10:55:31.59 [6872:7836:0510/105531.590:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 10:55:31.59 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 10:55:31.59 ERROR: Failed parsing Certificate
+May 10, 2023 10:55:31.59 
+May 10, 2023 11:03:58.15 [6872:5620:0510/110358.152:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:03:58.26 [6872:5620:0510/110358.267:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:03:58.64 [6872:5620:0510/110358.645:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:03:59.00 [6872:5620:0510/110359.003:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:03:59.29 [6872:5620:0510/110359.297:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:03:59.86 [6872:5620:0510/110359.861:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:01.98 [6872:5620:0510/110401.987:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:02.72 [6872:5620:0510/110402.724:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:13.97 [6872:5620:0510/110413.976:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:15.06 [6872:5620:0510/110415.064:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:15.56 [6872:5620:0510/110415.566:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:15.73 [6872:5620:0510/110415.733:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:15.84 [6872:5620:0510/110415.840:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.09 [6872:5620:0510/110416.090:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.19 [6872:5620:0510/110416.196:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.46 [6872:5620:0510/110416.460:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.68 [6872:5620:0510/110416.684:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.85 [6872:5620:0510/110416.851:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:16.97 [6872:5620:0510/110416.969:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:17.78 [6872:5620:0510/110417.787:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:26.05 [6872:5620:0510/110426.056:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:26.83 [6872:5620:0510/110426.838:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:04:59.63 [6872:5620:0510/110459.636:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:04.51 [6872:5620:0510/110504.514:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:04.94 [6872:5620:0510/110504.945:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:07.31 [6872:5620:0510/110507.313:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:15.04 [6872:5620:0510/110515.040:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:16.06 [6872:5620:0510/110516.065:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:16.56 [6872:5620:0510/110516.567:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:05:16.77 [6872:5620:0510/110516.776:ERROR:page_load_metrics_update_dispatcher.cc(178)] Invalid first_paint 2.028 s for first_image_paint 1.945 s
+May 10, 2023 11:15:37.80 [6872:7836:0510/111537.803:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 10, 2023 11:15:37.80 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 10, 2023 11:15:37.80 ERROR: Failed parsing Certificate
+May 10, 2023 11:15:37.80 
+
+May 12, 2023 10:46:53.65 NEW SESSION
+May 12, 2023 10:46:53.65 [7320:7904:0512/104653.656:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 10:46:53.66 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 10:46:53.66 ERROR: Failed parsing Certificate
+May 12, 2023 10:46:53.66 
+May 12, 2023 11:04:05.87 [7320:7904:0512/110405.871:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:04:05.87 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:04:05.87 ERROR: Failed parsing Certificate
+May 12, 2023 11:04:05.87 
+May 12, 2023 11:11:09.22 [7320:7904:0512/111109.223:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:11:09.22 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:11:09.22 ERROR: Failed parsing Certificate
+May 12, 2023 11:11:09.22 
+May 12, 2023 11:14:46.95 [7320:7904:0512/111446.950:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:14:46.95 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:14:46.95 ERROR: Failed parsing Certificate
+May 12, 2023 11:14:46.95 
+May 12, 2023 11:14:51.37 [7320:7904:0512/111451.379:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:14:51.38 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:14:51.38 ERROR: Failed parsing Certificate
+May 12, 2023 11:14:51.38 
+May 12, 2023 11:14:57.01 [7320:7904:0512/111457.010:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:14:57.01 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:14:57.01 ERROR: Failed parsing Certificate
+May 12, 2023 11:14:57.01 
+May 12, 2023 11:23:48.34 [7320:8716:0512/112348.339:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+May 12, 2023 11:23:50.32 [7320:8716:0512/112350.325:ERROR:connection_factory_impl.cc(471)] ConnectionHandler failed with net error: -2
+May 12, 2023 11:24:40.72 [7320:8716:0512/112440.721:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+May 12, 2023 11:24:44.66 [7320:2136:0512/112444.661:ERROR:device_event_log_impl.cc(222)] [11:24:44.661] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+May 12, 2023 11:29:05.35 [7320:7904:0512/112905.351:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 11:29:05.35 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 11:29:05.35 ERROR: Failed parsing Certificate
+May 12, 2023 11:29:05.35 
+
+May 12, 2023 22:35:52.47 NEW SESSION
+May 12, 2023 22:35:52.47 [11000:7492:0512/223552.471:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 22:35:52.47 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 22:35:52.47 ERROR: Failed parsing Certificate
+May 12, 2023 22:35:52.47 
+May 12, 2023 22:35:52.97 [11000:7492:0512/223552.978:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for andreasstorm.com failed:
+May 12, 2023 22:35:52.97 ----- Certificate i=0 (CN=andreasstorm.com) -----
+May 12, 2023 22:35:52.98 ERROR: Time is after notAfter
+May 12, 2023 22:35:52.98 
+May 12, 2023 22:35:52.98 
+May 12, 2023 22:38:14.42 [11000:7492:0512/223814.428:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 22:38:14.43 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 22:38:14.43 ERROR: Failed parsing Certificate
+May 12, 2023 22:38:14.43 
+May 12, 2023 22:39:56.37 [11000:7492:0512/223956.376:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 22:39:56.37 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 22:39:56.37 ERROR: Failed parsing Certificate
+May 12, 2023 22:39:56.37 
+May 12, 2023 23:15:06.70 [11000:7492:0512/231506.700:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 12, 2023 23:15:06.70 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 12, 2023 23:15:06.70 ERROR: Failed parsing Certificate
+May 12, 2023 23:15:06.70 
+
+May 13, 2023 09:22:44.19 NEW SESSION
+May 13, 2023 09:22:44.19 [7844:9544:0513/092244.193:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:22:44.20 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:22:44.20 ERROR: Failed parsing Certificate
+May 13, 2023 09:22:44.20 
+May 13, 2023 09:22:44.26 [7844:928:0513/092244.269:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:22:44.27 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:22:44.27 ERROR: Failed parsing Certificate
+May 13, 2023 09:22:44.27 
+May 13, 2023 09:40:17.23 [7844:928:0513/094017.234:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:40:17.23 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:40:17.23 ERROR: Failed parsing Certificate
+May 13, 2023 09:40:17.23 
+May 13, 2023 09:40:17.39 [7844:928:0513/094017.396:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:40:17.39 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:40:17.40 ERROR: Failed parsing Certificate
+May 13, 2023 09:40:17.40 
+May 13, 2023 09:40:18.66 [7844:928:0513/094018.666:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:40:18.66 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:40:18.66 ERROR: Failed parsing Certificate
+May 13, 2023 09:40:18.66 
+May 13, 2023 09:45:16.39 [7844:928:0513/094516.392:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:45:16.39 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:45:16.39 ERROR: Failed parsing Certificate
+May 13, 2023 09:45:16.39 
+May 13, 2023 09:45:17.27 [7844:928:0513/094517.279:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:45:17.28 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:45:17.28 ERROR: Failed parsing Certificate
+May 13, 2023 09:45:17.28 
+May 13, 2023 09:45:19.01 [7844:928:0513/094519.014:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 13, 2023 09:45:19.01 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 13, 2023 09:45:19.01 ERROR: Failed parsing Certificate
+May 13, 2023 09:45:19.01 
+
+May 14, 2023 05:57:09.56 NEW SESSION
+May 14, 2023 05:57:09.56 [12660:1716:0514/055709.561:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 05:57:09.56 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 05:57:09.56 ERROR: Failed parsing Certificate
+May 14, 2023 05:57:09.56 
+May 14, 2023 06:05:37.35 [12660:1716:0514/060537.352:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 06:05:37.35 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 06:05:37.35 ERROR: Failed parsing Certificate
+May 14, 2023 06:05:37.35 
+May 14, 2023 06:05:37.48 [12660:2132:0514/060537.488:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 06:05:37.48 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 06:05:37.49 ERROR: Failed parsing Certificate
+May 14, 2023 06:05:37.49 
+May 14, 2023 06:05:39.81 [12660:1716:0514/060539.813:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 06:05:39.81 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 06:05:39.81 ERROR: Failed parsing Certificate
+May 14, 2023 06:05:39.81 
+May 14, 2023 06:38:15.58 [12660:2132:0514/063815.586:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 06:38:15.58 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 06:38:15.58 ERROR: Failed parsing Certificate
+May 14, 2023 06:38:15.58 
+May 14, 2023 06:56:03.45 [12660:1716:0514/065603.453:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 06:56:03.45 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 06:56:03.45 ERROR: Failed parsing Certificate
+May 14, 2023 06:56:03.45 
+May 14, 2023 07:15:55.02 [12660:1716:0514/071555.026:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:15:55.02 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:15:55.02 ERROR: Failed parsing Certificate
+May 14, 2023 07:15:55.02 
+May 14, 2023 07:15:55.40 [12660:1716:0514/071555.406:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:15:55.40 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:15:55.40 ERROR: Failed parsing Certificate
+May 14, 2023 07:15:55.40 
+May 14, 2023 07:15:57.42 [12660:1716:0514/071557.428:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:15:57.42 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:15:57.43 ERROR: Failed parsing Certificate
+May 14, 2023 07:15:57.43 
+May 14, 2023 07:15:57.97 [12660:2132:0514/071557.979:ERROR:cert_verify_proc_builtin.cc(679)] CertVerifyProcBuiltin for andreasstorm.com failed:
+May 14, 2023 07:15:57.98 ----- Certificate i=0 (CN=andreasstorm.com) -----
+May 14, 2023 07:15:57.98 ERROR: Time is after notAfter
+May 14, 2023 07:15:57.98 
+May 14, 2023 07:15:57.98 
+May 14, 2023 07:23:05.63 [12660:1716:0514/072305.634:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:23:05.63 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:23:05.63 ERROR: Failed parsing Certificate
+May 14, 2023 07:23:05.63 
+May 14, 2023 07:33:03.14 [12660:1716:0514/073303.142:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:33:03.14 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:33:03.14 ERROR: Failed parsing Certificate
+May 14, 2023 07:33:03.14 
+May 14, 2023 07:34:55.14 [12660:1716:0514/073455.147:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:34:55.14 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:34:55.14 ERROR: Failed parsing Certificate
+May 14, 2023 07:34:55.14 
+May 14, 2023 07:34:55.39 [12660:1716:0514/073455.397:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+May 14, 2023 07:34:55.39 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 14, 2023 07:34:55.39 ERROR: Failed parsing Certificate
+May 14, 2023 07:34:55.40 

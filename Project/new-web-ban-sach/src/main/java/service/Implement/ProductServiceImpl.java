@@ -30,5 +30,11 @@ public class ProductServiceImpl implements CRUDProduct{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public Product findByID(int id) {
+		// TODO Auto-generated method stub
+		return productRepo.findByID(id);
+	}
 	
 }

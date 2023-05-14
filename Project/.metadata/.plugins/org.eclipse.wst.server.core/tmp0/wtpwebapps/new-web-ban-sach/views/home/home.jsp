@@ -14,18 +14,22 @@
 	rel="stylesheet"
 	integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
 	crossorigin="anonymous">
-	
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+	integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+	crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
-<body style="padding-bottom: 500px; background-color: background: rgba(249, 249, 249, 1);">
+<body style="padding-bottom: 500px; background-color: #dcdde1;">
 	<div class="header">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- <nav class="navbar navbar-expand-lg navbar-light"
+			style="background-color: #ffffff;">
 			<div class="container-fluid">
-				<!-- 				<a class="navbar-brand" href="#"> <img src="logo_casestudy.png"
-					width="50px" height="50px">
-				</a> 
--->
+				<a class="navbar-brand" href="#"> <img
+					src="/new-jdbc15-03/views/thumbnails/bookshop.png" class="logo">
+				</a>
 				<button class="navbar-toggler" type="button"
 					data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
 					aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -33,40 +37,63 @@
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="#">Home</a></li>
-						<li class="nav-item"><a class="nav-link active"
-							aria-current="page" href="/new-jdbc15-03/admin-home">Admin</a></li>
-					</ul>
 					<form class="d-flex">
 						<input class="form-control me-2" type="search"
-							placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success" type="submit">Search</button>
+							placeholder="Search" aria-label="Search" style="font-size: 30px;">
+						<button class="btn btn-outline-success" type="submit"
+							style="font-size: 30px;">Search</button>
 					</form>
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="#" style="font-size: 30px;">Home</a></li>
+						<li class="nav-item"><a class="nav-link active"
+							aria-current="page" href="/new-jdbc15-03/admin-home"
+							style="font-size: 30px;">Admin</a></li>
+					</ul>
 				</div>
 			</div>
-		</nav>
+		</nav> -->
+		<div class="left-section-header">
+			<img src="/new-jdbc15-03/views/thumbnails/bookshop.png" class="logo">
+		</div>
+		<div class="middle-section-header">
+			<div class="search-box">
+				<form>
+					<input type="search" placeholder="Bạn tìm kiếm gì hôm nay?" aria-label="Search"
+						class="input-search">
+					
+					<button type="submit" class="submit-btn">Tìm kiếm</button>
+				</form>
+			</div>
+		</div>
+		<div class="right-section-header">
+			<a href="/new-jdbc15-03/trang-chu" class="link" style="margin-right: 30px">Trang chủ</a> 
+			<a href="/new-jdbc15-03/trang-chu" class="link">Tài khoản</a>
+		</div>
 	</div>
 	<div class="left-right">
 		<div class="left-side">
 			<div class="list-group">
 				<c:forEach varStatus="count" var="cate" items="${listCate}">
 					<a href="#" class="list-group-item list-group-item-action"
-					aria-current="true"> ${cate.nameCategory} </a> 
+						aria-current="true"> ${cate.nameCategory} </a>
 				</c:forEach>
 			</div>
 		</div>
 		<div class="right-side">
 			<c:forEach varStatus="count" var="product" items="${listProduct}">
 				<div class="item">
-					<img alt="thumbnail" src="<c:url value="${product.thumbnail}"/>"
-						class="thumbnail-img">
-					<p>
-						<c:out value="${product.nameProduct}"></c:out>
-					</p>
-					<c:out value="${product.price}.000VND"></c:out>
-					<c:out value="-${product.discount}%"></c:out>
+					<div class="thumbnails">
+						<img alt="thumbnail" src="<c:url value="${product.thumbnail}"/>"
+							class="thumbnail-img">
+					</div>
+					<div class="content">
+						<p>
+							<c:out value="${product.nameProduct}"></c:out>
+						</p>
+						<c:out value="${product.price}.000VND"></c:out>
+						<c:out value="-${product.discount}%"></c:out>
+					</div>
 				</div>
 			</c:forEach>
 		</div>
